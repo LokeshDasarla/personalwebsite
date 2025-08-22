@@ -260,102 +260,109 @@
             </div>
         </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="py-20 md:py-32 bg-black">
-            <div class="container mx-auto px-6">
-                <div class="text-center mb-12 reveal">
-                    <h2 class="text-3xl md:text-4xl font-bold">My Projects</h2>
-                    <div class="w-24 h-1 bg-sky-500 mx-auto mt-4"></div>
-                </div>
-                <!-- Project Filters -->
-                <div class="flex justify-center flex-wrap gap-4 mb-12 reveal">
-                    <button class="filter-btn active px-4 py-2 rounded-md bg-sky-600" data-filter="all">All</button>
-                    <button class="filter-btn px-4 py-2 rounded-md bg-gray-800 hover:bg-sky-600 transition" data-filter="web">Web</button>
-                    <button class="filter-btn px-4 py-2 rounded-md bg-gray-800 hover:bg-sky-600 transition" data-filter="ml">ML</button>
-                    <button class="filter-btn px-4 py-2 rounded-md bg-gray-800 hover:bg-sky-600 transition" data-filter="ai">AI</button>
-                </div>
-                <!-- Project Grid -->
-                <div id="project-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Project Card 1 -->
-                    <div class="project-card-wrapper reveal" data-category="web ai">
-                        <div class="project-card bg-[#0A192F] rounded-lg overflow-hidden p-6 border border-gray-800">
-                            <h3 class="text-xl font-bold mb-2 text-sky-300">Talk2Docs – Voice-to-Document Generator</h3>
-                            <p class="text-gray-400 mb-4 text-sm">A web tool that converts speech into structured documents like blogs and emails using Web Speech API and Flask.</p>
-                            <div class="flex flex-wrap gap-2 mb-4">
-                                <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">Web Speech API</span>
-                                <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">Flask</span>
-                                <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">OpenAI</span>
-                            </div>
-                            <div class="flex justify-end gap-4 mt-4">
-                                <a href="https://github.com/LokeshDasarla/Talk-to-Docs---Voice-to-Document-AI" target="_blank" class="hover:text-sky-400 transition">GitHub</a>
-                                <a href="#" class="hover:text-sky-400 transition">Live Demo</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Project Card 2 -->
-                    <div class="project-card-wrapper reveal" data-category="ml">
-                        <div class="project-card bg-[#0A192F] rounded-lg overflow-hidden p-6 border border-gray-800">
-                            <h3 class="text-xl font-bold mb-2 text-sky-300">Word Guessing Game with NLP</h3>
-                            <p class="text-gray-400 mb-4 text-sm">A smart word guessing game using Python, Tkinter, and NLP for adaptive hint generation based on player input.</p>
-                            <div class="flex flex-wrap gap-2 mb-4">
-                                <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">Python</span>
-                                <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">NLP</span>
-                                <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">Tkinter</span>
-                            </div>
-                            <div class="flex justify-end gap-4 mt-4">
-                                <a href="https://github.com/LokeshDasarla" target="_blank" class="hover:text-sky-400 transition">GitHub</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Project Card 3 -->
-                    <div class="project-card-wrapper reveal" data-category="ml">
-                        <div class="project-card bg-[#0A192F] rounded-lg overflow-hidden p-6 border border-gray-800">
-                            <h3 class="text-xl font-bold mb-2 text-sky-300">Credit Card Fraud Detection</h3>
-                            <p class="text-gray-400 mb-4 text-sm">An ML model using Random Forest to detect fraudulent transactions, focusing on handling imbalanced data.</p>
-                            <div class="flex flex-wrap gap-2 mb-4">
-                                <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">Python</span>
-                                <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">Scikit-learn</span>
-                                <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">Random Forest</span>
-                            </div>
-                            <div class="flex justify-end gap-4 mt-4">
-                                <a href="https://github.com/LokeshDasarla" target="_blank" class="hover:text-sky-400 transition">GitHub</a>
-                            </div>
-                        </div>
-                    </div>
-                     <!-- Project Card 4 -->
-                    <div class="project-card-wrapper reveal" data-category="ai ml">
-                        <div class="project-card bg-[#0A192F] rounded-lg overflow-hidden p-6 border border-gray-800">
-                            <h3 class="text-xl font-bold mb-2 text-sky-300">Network Intrusion Detection System</h3>
-                            <p class="text-gray-400 mb-4 text-sm">Designed an NIDS using ML/DL models (Random Forest, CNN) to classify and detect malicious network activities.</p>
-                            <div class="flex flex-wrap gap-2 mb-4">
-                                <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">Python</span>
-                                <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">CNN</span>
-                                <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">Cybersecurity</span>
-                            </div>
-                            <div class="flex justify-end gap-4 mt-4">
-                                <a href="https://github.com/LokeshDasarla" target="_blank" class="hover:text-sky-400 transition">GitHub</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            <!--project card 5-->
-            <div class="project-card-wrapper reveal" data-category="java projects">
-    <div class="project-card bg-[#0A192F] rounded-lg overflow-hidden p-6 border border-gray-800">
-        <h3 class="text-xl font-bold mb-2 text-sky-300">Flight Booking System</h3>
-        <p class="text-gray-400 mb-4 text-sm">Developed a console-based flight booking system in Java that allows users to search flights, book tickets by class, and generate booking confirmations saved as text files.</p>
-        <div class="flex flex-wrap gap-2 mb-4">
-            <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">Java</span>
-            <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">OOP</span>
-            <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">File Handling</span>
+<!-- Projects Section -->
+<section id="projects" class="py-20 md:py-32 bg-black">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-12 reveal">
+            <h2 class="text-3xl md:text-4xl font-bold">My Projects</h2>
+            <div class="w-24 h-1 bg-sky-500 mx-auto mt-4"></div>
         </div>
-        <div class="flex justify-end gap-4 mt-4">
-            <a href="https://github.com/LokeshDasarla/Flight-Booking-System-" target="_blank" class="hover:text-sky-400 transition">GitHub</a>
+        <!-- Project Filters -->
+        <div class="flex justify-center flex-wrap gap-4 mb-12 reveal">
+            <button class="filter-btn active px-4 py-2 rounded-md bg-sky-600" data-filter="all">All</button>
+            <button class="filter-btn px-4 py-2 rounded-md bg-gray-800 hover:bg-sky-600 transition" data-filter="web">Web</button>
+            <button class="filter-btn px-4 py-2 rounded-md bg-gray-800 hover:bg-sky-600 transition" data-filter="ml">ML</button>
+            <button class="filter-btn px-4 py-2 rounded-md bg-gray-800 hover:bg-sky-600 transition" data-filter="ai">AI</button>
+            <button class="filter-btn px-4 py-2 rounded-md bg-gray-800 hover:bg-sky-600 transition" data-filter="java">Java</button>
+        </div>
+        <!-- Project Grid -->
+        <div id="project-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Project Card 1 -->
+            <div class="project-card-wrapper reveal" data-category="web ai">
+                <div class="project-card bg-[#0A192F] rounded-lg overflow-hidden p-6 border border-gray-800">
+                    <h3 class="text-xl font-bold mb-2 text-sky-300">Talk2Docs – Voice-to-Document Generator</h3>
+                    <p class="text-gray-400 mb-4 text-sm">A web tool that converts speech into structured documents like blogs and emails using Web Speech API and Flask.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">Web Speech API</span>
+                        <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">Flask</span>
+                        <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">OpenAI</span>
+                    </div>
+                    <div class="flex justify-end gap-4 mt-4">
+                        <a href="https://github.com/LokeshDasarla/Talk-to-Docs---Voice-to-Document-AI" target="_blank" class="hover:text-sky-400 transition">GitHub</a>
+                        <a href="#" class="hover:text-sky-400 transition">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div class="project-card-wrapper reveal" data-category="ml">
+                <div class="project-card bg-[#0A192F] rounded-lg overflow-hidden p-6 border border-gray-800">
+                    <h3 class="text-xl font-bold mb-2 text-sky-300">Word Guessing Game with NLP</h3>
+                    <p class="text-gray-400 mb-4 text-sm">A smart word guessing game using Python, Tkinter, and NLP for adaptive hint generation based on player input.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">Python</span>
+                        <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">NLP</span>
+                        <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">Tkinter</span>
+                    </div>
+                    <div class="flex justify-end gap-4 mt-4">
+                        <a href="https://github.com/LokeshDasarla" target="_blank" class="hover:text-sky-400 transition">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="project-card-wrapper reveal" data-category="ml">
+                <div class="project-card bg-[#0A192F] rounded-lg overflow-hidden p-6 border border-gray-800">
+                    <h3 class="text-xl font-bold mb-2 text-sky-300">Credit Card Fraud Detection</h3>
+                    <p class="text-gray-400 mb-4 text-sm">An ML model using Random Forest to detect fraudulent transactions, focusing on handling imbalanced data.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">Python</span>
+                        <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">Scikit-learn</span>
+                        <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">Random Forest</span>
+                    </div>
+                    <div class="flex justify-end gap-4 mt-4">
+                        <a href="https://github.com/LokeshDasarla" target="_blank" class="hover:text-sky-400 transition">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 4 -->
+            <div class="project-card-wrapper reveal" data-category="ai ml">
+                <div class="project-card bg-[#0A192F] rounded-lg overflow-hidden p-6 border border-gray-800">
+                    <h3 class="text-xl font-bold mb-2 text-sky-300">Network Intrusion Detection System</h3>
+                    <p class="text-gray-400 mb-4 text-sm">Designed an NIDS using ML/DL models (Random Forest, CNN) to classify and detect malicious network activities.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">Python</span>
+                        <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">CNN</span>
+                        <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">Cybersecurity</span>
+                    </div>
+                    <div class="flex justify-end gap-4 mt-4">
+                        <a href="https://github.com/LokeshDasarla" target="_blank" class="hover:text-sky-400 transition">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 5 -->
+            <div class="project-card-wrapper reveal" data-category="java">
+                <div class="project-card bg-[#0A192F] rounded-lg overflow-hidden p-6 border border-gray-800">
+                    <h3 class="text-xl font-bold mb-2 text-sky-300">Flight Booking System</h3>
+                    <p class="text-gray-400 mb-4 text-sm">Developed a console-based flight booking system in Java that allows users to search flights, book tickets by class, and generate booking confirmations saved as text files.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">Java</span>
+                        <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">OOP</span>
+                        <span class="tech-badge bg-gray-700 text-xs px-2 py-1 rounded">File Handling</span>
+                    </div>
+                    <div class="flex justify-end gap-4 mt-4">
+                        <a href="https://github.com/LokeshDasarla/Flight-Booking-System-" target="_blank" class="hover:text-sky-400 transition">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
-</div>
-</div>
-        </section>
+</section>
+
 
         <!-- Internship & Experience Section -->
         <section id="experience" class="py-20 md:py-32 bg-[#0A192F]">
@@ -779,6 +786,7 @@
     </script>
 </body>
 </html>
+
 
 
 
